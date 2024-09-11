@@ -12,10 +12,14 @@ class WeakSelfSeccondScreenViewModel: ObservableObject {
     
     init() {
         print("init")
+        let currentCount = UserDefaults.standard.integer(forKey: "count")
+        UserDefaults.standard.set(currentCount + 1, forKey: "count")
         getData()
     }
     deinit {
         print("dinit")
+        let currentCount = UserDefaults.standard.integer(forKey: "count")
+        UserDefaults.standard.set(currentCount - 1, forKey: "count")
     }
     
     func getData() {
@@ -24,11 +28,22 @@ class WeakSelfSeccondScreenViewModel: ObservableObject {
 }
 
 struct WeakSelfBootCamp: View {
+    
+    @AppStorage("count") var count: Int?
     var body: some View {
         NavigationView {
             NavigationLink("Go To", destination: WeakSeccondScreen())
             .navigationTitle("Screen 1")
         }
+        .overlay(
+            Text("\(count ?? 0)")
+                .font(.title)
+                .padding()
+                .background(Color.green.cornerRadius(10))
+         
+            ,alignment: .topTrailing
+            )
+    
     }
 }
 

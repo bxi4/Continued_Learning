@@ -26,6 +26,9 @@
 		3762C3AD2C77337500BCBA0B /* HideOrShowPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762C3AC2C77337400BCBA0B /* HideOrShowPasswordPage.swift */; };
 		3762C3BB2C79E75C00BCBA0B /* MultipleSheetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762C3BA2C79E75C00BCBA0B /* MultipleSheetPage.swift */; };
 		376E83D32C8DC312002BA6F4 /* WeakSelfBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D22C8DC312002BA6F4 /* WeakSelfBootCamp.swift */; };
+		376E83D52C8DCAC2002BA6F4 /* TypealiasBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */; };
+		376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */; };
+		376E83DB2C9068E8002BA6F4 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */; };
 		3791CF852C846FFE00266ACF /* CoreDataRelationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */; };
 		3791CF872C8477D400266ACF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */; };
 		37E462BC2C7C5A4B004ED70B /* NotifiactionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */; };
@@ -58,6 +61,9 @@
 		3762C3AC2C77337400BCBA0B /* HideOrShowPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideOrShowPasswordPage.swift; sourceTree = "<group>"; };
 		3762C3BA2C79E75C00BCBA0B /* MultipleSheetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetPage.swift; sourceTree = "<group>"; };
 		376E83D22C8DC312002BA6F4 /* WeakSelfBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootCamp.swift; sourceTree = "<group>"; };
+		376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootCamp.swift; sourceTree = "<group>"; };
+		376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootCamp1.swift; sourceTree = "<group>"; };
+		376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationBootCamp.swift; sourceTree = "<group>"; };
 		3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiactionCenter.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */,
 				3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */,
 				376E83D22C8DC312002BA6F4 /* WeakSelfBootCamp.swift */,
+				376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */,
+				376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */,
+				376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */,
 				37E462E82C80B984004ED70B /* FruitsContiner.xcdatamodeld */,
 				3745BF952C748AA800FFA9E2 /* Assets.xcassets */,
 				3745BF972C748AA800FFA9E2 /* Preview Content */,
@@ -230,6 +239,7 @@
 				376E83D32C8DC312002BA6F4 /* WeakSelfBootCamp.swift in Sources */,
 				37474DAE2C7B13D9005FC10E /* SoundPage.swift in Sources */,
 				37E462C22C7DB5E7004ED70B /* HashablePage.swift in Sources */,
+				376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */,
 				3762C3AB2C772F5100BCBA0B /* GeometryReaderPage.swift in Sources */,
 				37E462BE2C7C9124004ED70B /* SerachTestPage.swift in Sources */,
 				37E462C42C7DC04C004ED70B /* ArraysBootCamp.swift in Sources */,
@@ -241,10 +251,12 @@
 				37474DB02C7B1E85005FC10E /* SoundBootCamp.swift in Sources */,
 				37474DAA2C7B0B36005FC10E /* StarRateView.swift in Sources */,
 				3791CF852C846FFE00266ACF /* CoreDataRelationBootCamp.swift in Sources */,
+				376E83DB2C9068E8002BA6F4 /* EscapingBootcamp.swift in Sources */,
 				37474DAC2C7B10BC005FC10E /* MaskPage.swift in Sources */,
 				3762C3BB2C79E75C00BCBA0B /* MultipleSheetPage.swift in Sources */,
 				37E462E72C80B8A5004ED70B /* CoreDataBootCamp.swift in Sources */,
 				3745BF942C748AA600FFA9E2 /* ContentView.swift in Sources */,
+				376E83D52C8DCAC2002BA6F4 /* TypealiasBootCamp.swift in Sources */,
 				37474DB32C7B20D4005FC10E /* AlertWithTextField.swift in Sources */,
 				3762C3AD2C77337500BCBA0B /* HideOrShowPasswordPage.swift in Sources */,
 				37E462EA2C80B984004ED70B /* FruitsContiner.xcdatamodeld in Sources */,
