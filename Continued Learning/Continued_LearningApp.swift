@@ -11,7 +11,7 @@ import SwiftUI
 struct Continued_LearningApp: App {
     var body: some Scene {
         WindowGroup {
-            WeakSelfBootCamp()
+            CodeableBootCamp()
         }
     }
 }

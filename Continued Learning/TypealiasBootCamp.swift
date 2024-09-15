@@ -34,7 +34,7 @@ struct TypealiasBootCamp: View {
             
             Button("Change") {
                 
-                var newMoney = Receipt(totalCosts: count)
+                let newMoney = Receipt(totalCosts: count)
                 result = newMoney.totalCosts.toYe()
             }
             

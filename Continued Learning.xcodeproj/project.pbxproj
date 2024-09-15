@@ -29,6 +29,7 @@
 		376E83D52C8DCAC2002BA6F4 /* TypealiasBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */; };
 		376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */; };
 		376E83DB2C9068E8002BA6F4 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */; };
+		376E83DD2C91886B002BA6F4 /* CodeableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */; };
 		3791CF852C846FFE00266ACF /* CoreDataRelationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */; };
 		3791CF872C8477D400266ACF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */; };
 		37E462BC2C7C5A4B004ED70B /* NotifiactionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */; };
@@ -64,6 +65,7 @@
 		376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootCamp.swift; sourceTree = "<group>"; };
 		376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootCamp1.swift; sourceTree = "<group>"; };
 		376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBootCamp.swift; sourceTree = "<group>"; };
 		3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationBootCamp.swift; sourceTree = "<group>"; };
 		3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiactionCenter.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				376E83D42C8DCAC2002BA6F4 /* TypealiasBootCamp.swift */,
 				376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */,
 				376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */,
+				376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */,
 				37E462E82C80B984004ED70B /* FruitsContiner.xcdatamodeld */,
 				3745BF952C748AA800FFA9E2 /* Assets.xcassets */,
 				3745BF972C748AA800FFA9E2 /* Preview Content */,
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376E83D32C8DC312002BA6F4 /* WeakSelfBootCamp.swift in Sources */,
+				376E83DD2C91886B002BA6F4 /* CodeableBootCamp.swift in Sources */,
 				37474DAE2C7B13D9005FC10E /* SoundPage.swift in Sources */,
 				37E462C22C7DB5E7004ED70B /* HashablePage.swift in Sources */,
 				376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */,
