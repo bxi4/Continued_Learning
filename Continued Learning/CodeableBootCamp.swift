@@ -60,7 +60,7 @@ class CustomerViewModel: ObservableObject {
         self.customer = try? JSONDecoder().decode(CustomerModel.self, from: data)
     }
     func getJsonData() -> Data? {
-        let customer = CustomerModel(id: "1211", name: "Matia", age: 20, email: "maria@gmail.com", isPremium: false)
+        let customer = CustomerModel(id: "1211", name: "Maria", age: 20, email: "maria@gmail.com", isPremium: false)
         
         let jsonData = try? JSONEncoder().encode(customer)
         return jsonData

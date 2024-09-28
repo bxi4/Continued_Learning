@@ -51,4 +51,5 @@ struct TypealiasBootCamp: View {
 
 #Preview {
     TypealiasBootCamp()
+    
 }

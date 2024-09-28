@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374430442C9C27B20051173E /* FaqsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374430432C9C27B20051173E /* FaqsView.swift */; };
+		374430492C9C282B0051173E /* TestApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374430482C9C282B0051173E /* TestApiView.swift */; };
+		3744304B2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3744304A2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift */; };
+		3744304D2C9EE1A00051173E /* TestDownloadJosnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3744304C2C9EE1A00051173E /* TestDownloadJosnView.swift */; };
 		3745BF922C748AA600FFA9E2 /* Continued_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BF912C748AA600FFA9E2 /* Continued_LearningApp.swift */; };
 		3745BF942C748AA600FFA9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BF932C748AA600FFA9E2 /* ContentView.swift */; };
 		3745BF962C748AA800FFA9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3745BF952C748AA800FFA9E2 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		374430432C9C27B20051173E /* FaqsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqsView.swift; sourceTree = "<group>"; };
+		374430482C9C282B0051173E /* TestApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApiView.swift; sourceTree = "<group>"; };
+		3744304A2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONWithEscapingBootCamp.swift; sourceTree = "<group>"; };
+		3744304C2C9EE1A00051173E /* TestDownloadJosnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloadJosnView.swift; sourceTree = "<group>"; };
 		3745BF8E2C748AA600FFA9E2 /* Continued Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Continued Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3745BF912C748AA600FFA9E2 /* Continued_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continued_LearningApp.swift; sourceTree = "<group>"; };
 		3745BF932C748AA600FFA9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374430472C9C28150051173E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				374430482C9C282B0051173E /* TestApiView.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		3745BF852C748AA600FFA9E2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +123,7 @@
 		3745BF902C748AA600FFA9E2 /* Continued Learning */ = {
 			isa = PBXGroup;
 			children = (
+				374430472C9C28150051173E /* Api */,
 				37474DB42C7B35F4005FC10E /* Sounds */,
 				37474DB12C7B20A2005FC10E /* ExampleAnother */,
 				3745BF912C748AA600FFA9E2 /* Continued_LearningApp.swift */,
@@ -133,6 +150,9 @@
 				376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */,
 				376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */,
 				376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */,
+				374430432C9C27B20051173E /* FaqsView.swift */,
+				3744304A2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift */,
+				3744304C2C9EE1A00051173E /* TestDownloadJosnView.swift */,
 				37E462E82C80B984004ED70B /* FruitsContiner.xcdatamodeld */,
 				3745BF952C748AA800FFA9E2 /* Assets.xcassets */,
 				3745BF972C748AA800FFA9E2 /* Preview Content */,
@@ -183,6 +203,8 @@
 			dependencies = (
 			);
 			name = "Continued Learning";
+			packageProductDependencies = (
+			);
 			productName = "Continued Learning";
 			productReference = 3745BF8E2C748AA600FFA9E2 /* Continued Learning.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +233,8 @@
 				Base,
 			);
 			mainGroup = 3745BF852C748AA600FFA9E2;
+			packageReferences = (
+			);
 			productRefGroup = 3745BF8F2C748AA600FFA9E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,18 +265,21 @@
 			files = (
 				376E83D32C8DC312002BA6F4 /* WeakSelfBootCamp.swift in Sources */,
 				376E83DD2C91886B002BA6F4 /* CodeableBootCamp.swift in Sources */,
+				3744304D2C9EE1A00051173E /* TestDownloadJosnView.swift in Sources */,
 				37474DAE2C7B13D9005FC10E /* SoundPage.swift in Sources */,
 				37E462C22C7DB5E7004ED70B /* HashablePage.swift in Sources */,
 				376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */,
 				3762C3AB2C772F5100BCBA0B /* GeometryReaderPage.swift in Sources */,
 				37E462BE2C7C9124004ED70B /* SerachTestPage.swift in Sources */,
 				37E462C42C7DC04C004ED70B /* ArraysBootCamp.swift in Sources */,
+				374430492C9C282B0051173E /* TestApiView.swift in Sources */,
 				3762C3A72C75D89C00BCBA0B /* magnificationGestureView.swift in Sources */,
 				37474DBA2C7B3BD0005FC10E /* VirbationPage.swift in Sources */,
 				3791CF872C8477D400266ACF /* BackgroundThreadBootcamp.swift in Sources */,
 				37E462E52C80B283004ED70B /* TestSwipeWithout.swift in Sources */,
 				37E462BC2C7C5A4B004ED70B /* NotifiactionCenter.swift in Sources */,
 				37474DB02C7B1E85005FC10E /* SoundBootCamp.swift in Sources */,
+				3744304B2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift in Sources */,
 				37474DAA2C7B0B36005FC10E /* StarRateView.swift in Sources */,
 				3791CF852C846FFE00266ACF /* CoreDataRelationBootCamp.swift in Sources */,
 				376E83DB2C9068E8002BA6F4 /* EscapingBootcamp.swift in Sources */,
@@ -266,6 +293,7 @@
 				37E462EA2C80B984004ED70B /* FruitsContiner.xcdatamodeld in Sources */,
 				37474DBC2C7B425A005FC10E /* NotficationPage.swift in Sources */,
 				3745BF922C748AA600FFA9E2 /* Continued_LearningApp.swift in Sources */,
+				374430442C9C27B20051173E /* FaqsView.swift in Sources */,
 				3762C3A92C7721FF00BCBA0B /* ScrollViewReaderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
