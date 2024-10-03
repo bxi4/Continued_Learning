@@ -39,7 +39,7 @@ struct ArraysBootCamp: View {
     @State var text: String = ""
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ScrollView {
                 VStack {
                     ForEach(text.isEmpty ? vm.userArray : vm.userArray.filter { $0.name.localizedCaseInsensitiveContains(text) }) { item in

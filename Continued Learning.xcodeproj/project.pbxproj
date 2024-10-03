@@ -34,6 +34,8 @@
 		376E83D92C90461C002BA6F4 /* TypealiasBootCamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */; };
 		376E83DB2C9068E8002BA6F4 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */; };
 		376E83DD2C91886B002BA6F4 /* CodeableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */; };
+		37850A152CA7E0D5002D89A0 /* AnotherTestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37850A142CA7E0D5002D89A0 /* AnotherTestApi.swift */; };
+		37850A172CA87214002D89A0 /* DownloadWithCombinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37850A162CA87214002D89A0 /* DownloadWithCombinePage.swift */; };
 		3791CF852C846FFE00266ACF /* CoreDataRelationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */; };
 		3791CF872C8477D400266ACF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */; };
 		37E462BC2C7C5A4B004ED70B /* NotifiactionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */; };
@@ -74,6 +76,8 @@
 		376E83D82C90461C002BA6F4 /* TypealiasBootCamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootCamp1.swift; sourceTree = "<group>"; };
 		376E83DA2C9068E8002BA6F4 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		376E83DC2C91886B002BA6F4 /* CodeableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBootCamp.swift; sourceTree = "<group>"; };
+		37850A142CA7E0D5002D89A0 /* AnotherTestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherTestApi.swift; sourceTree = "<group>"; };
+		37850A162CA87214002D89A0 /* DownloadWithCombinePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombinePage.swift; sourceTree = "<group>"; };
 		3791CF842C846FFE00266ACF /* CoreDataRelationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationBootCamp.swift; sourceTree = "<group>"; };
 		3791CF862C8477D400266ACF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		37E462BB2C7C5A4B004ED70B /* NotifiactionCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiactionCenter.swift; sourceTree = "<group>"; };
@@ -153,6 +157,8 @@
 				374430432C9C27B20051173E /* FaqsView.swift */,
 				3744304A2C9EA95C0051173E /* DownloadJSONWithEscapingBootCamp.swift */,
 				3744304C2C9EE1A00051173E /* TestDownloadJosnView.swift */,
+				37850A142CA7E0D5002D89A0 /* AnotherTestApi.swift */,
+				37850A162CA87214002D89A0 /* DownloadWithCombinePage.swift */,
 				37E462E82C80B984004ED70B /* FruitsContiner.xcdatamodeld */,
 				3745BF952C748AA800FFA9E2 /* Assets.xcassets */,
 				3745BF972C748AA800FFA9E2 /* Preview Content */,
@@ -276,6 +282,7 @@
 				3762C3A72C75D89C00BCBA0B /* magnificationGestureView.swift in Sources */,
 				37474DBA2C7B3BD0005FC10E /* VirbationPage.swift in Sources */,
 				3791CF872C8477D400266ACF /* BackgroundThreadBootcamp.swift in Sources */,
+				37850A152CA7E0D5002D89A0 /* AnotherTestApi.swift in Sources */,
 				37E462E52C80B283004ED70B /* TestSwipeWithout.swift in Sources */,
 				37E462BC2C7C5A4B004ED70B /* NotifiactionCenter.swift in Sources */,
 				37474DB02C7B1E85005FC10E /* SoundBootCamp.swift in Sources */,
@@ -290,6 +297,7 @@
 				376E83D52C8DCAC2002BA6F4 /* TypealiasBootCamp.swift in Sources */,
 				37474DB32C7B20D4005FC10E /* AlertWithTextField.swift in Sources */,
 				3762C3AD2C77337500BCBA0B /* HideOrShowPasswordPage.swift in Sources */,
+				37850A172CA87214002D89A0 /* DownloadWithCombinePage.swift in Sources */,
 				37E462EA2C80B984004ED70B /* FruitsContiner.xcdatamodeld in Sources */,
 				37474DBC2C7B425A005FC10E /* NotficationPage.swift in Sources */,
 				3745BF922C748AA600FFA9E2 /* Continued_LearningApp.swift in Sources */,
@@ -435,6 +443,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

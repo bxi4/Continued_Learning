@@ -25,7 +25,6 @@ class TestDonwloadApiViewModel: ObservableObject {
     }
     func getData() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/7") else { return }
-        
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data,
                   error == nil,

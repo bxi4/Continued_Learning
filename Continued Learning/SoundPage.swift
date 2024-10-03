@@ -26,11 +26,11 @@ struct CustomButtonStyle: ButtonStyle{
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.title2)
-            .fontWeight(.bold)
+//            .font(.sy)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
             .frame(height: 80)
-            .background(Color(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1)).gradient.opacity(0.7))
+            .background(Color(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1)))
             .cornerRadius(10)
             .shadow(radius: 10)
             .scaleEffect(configuration.isPressed ? 0.9 : 1.0)
